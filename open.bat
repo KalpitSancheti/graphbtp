@@ -1,0 +1,3 @@
+@echo off
+echo Opening Graph Isomorphism Checker...
+start index.html

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph Isomorphism Checker</title>
+</head>
+<body>
+    <h1>Graph Isomorphism Checker</h1>
+    <p>Check if two graphs have the same structure</p>
+    <hr>
+
+    <h2>Graph 1</h2>
+    <label>Number of Vertices: </label>
+    <input type="number" id="vertices1" value="4" min="1" max="50"><br><br>
+    
+    <label>Edges (one per line: u v):</label><br>
+    <textarea id="edges1" rows="8" cols="30">0 1
+1 2
+2 3
+3 0</textarea>
+    
+    <br><br>
+    <hr>
+    
+    <h2>Graph 2</h2>
+    <label>Number of Vertices: </label>
+    <input type="number" id="vertices2" value="4" min="1" max="50"><br><br>
+    
+    <label>Edges (one per line: u v):</label><br>
+    <textarea id="edges2" rows="8" cols="30">0 1
+1 2
+2 3
+3 0</textarea>
+    
+    <br><br>
+    <hr>
+    
+    <button id="checkBtn">Check Isomorphism</button>
+    <button id="clearBtn">Clear</button>
+    <button id="exampleBtn">Load Example</button>
+    
+    <br><br>
+    <hr>
+    
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
